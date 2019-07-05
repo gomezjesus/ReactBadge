@@ -46,6 +46,10 @@ class BadgeNew extends React.Component {
                 formValues={this.state.form}
               />
             </div>
+
+            <div className="col-6">
+              <BadgeForm />
+            </div>
           </div>
         </div>
       </React.Fragment>
